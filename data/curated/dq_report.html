@@ -1,0 +1,48 @@
+<h2>Data Quality Report</h2><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>rule</th>
+      <th>checked_rows</th>
+      <th>failed_rows</th>
+      <th>fail_rate_pct</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>age &gt;= 0</td>
+      <td>300</td>
+      <td>10</td>
+      <td>3.33</td>
+    </tr>
+    <tr>
+      <td>age in [0, 120]</td>
+      <td>300</td>
+      <td>10</td>
+      <td>3.33</td>
+    </tr>
+    <tr>
+      <td>weight_kg not null</td>
+      <td>300</td>
+      <td>5</td>
+      <td>1.67</td>
+    </tr>
+    <tr>
+      <td>glucose_mg_dL in [40, 600]</td>
+      <td>300</td>
+      <td>8</td>
+      <td>2.67</td>
+    </tr>
+    <tr>
+      <td>systolic_bp |z| &lt;= 3.5</td>
+      <td>300</td>
+      <td>0</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>diastolic_bp |z| &lt;= 3.5</td>
+      <td>300</td>
+      <td>2</td>
+      <td>0.67</td>
+    </tr>
+  </tbody>
+</table>
