@@ -1,8 +1,9 @@
-# 🧬 Smart Health Analytics
-
-**ETL + QC + patient-safe analytics for healthcare intelligence**
-
-A lightweight healthcare analytics pipeline built with **Python, Pandas, SQL, Azure DevOps, and Streamlit** — designed for clean, safe, and actionable patient insights.
+<h1 align="center">🧬 Smart Health Analytics</h1>
+<p align="center">
+ETL + QC + patient-safe analytics for healthcare intelligence  
+<br>
+<sub>A lightweight healthcare analytics pipeline built with <b>Python, Pandas, SQL, Azure DevOps, and Streamlit</b> — designed for clean, safe, and actionable patient insights.</sub>
+</p>
 
 ---
 
